@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'YOUR_DOCKER_USERNAME/java-jenkins-demo'
+        DOCKER_IMAGE = 'poojamakawana/java-jenkins-demo'
     }
     stages {
         stage('Checkout') {
